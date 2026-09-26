@@ -1,5 +1,6 @@
 [app]
-
+source.dir = .
+version = 0.1
 # (str) Title of your application
 title = TacticalScannerApp
 
