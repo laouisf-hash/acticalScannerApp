@@ -9,7 +9,7 @@
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: tactical-scanner-apk
+        name: actical-scanner-apk
         path: bin/*.apk
 
 on:
