@@ -22,7 +22,8 @@ orientation = portrait
 
 # (list) Permissions
 android.permissions = CAMERA,INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
-
+android.api = 33
+android.accept_sdk_license = True
 [buildozer]
 log_level = 2
 warn_on_root = 1
