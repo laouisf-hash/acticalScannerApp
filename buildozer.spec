@@ -15,7 +15,7 @@ source.include_exts = py,png,jpg,kv,atlas
 
 # (list) Application requirements
 # Zid el requirements mta3 l'application mta3ek houni (kima kivy, opencv, numpy, plyer...)
-requirements = python3, kivy, opencv, numpy, requests, plyer, urllib3, charset_normalizer, certifi, idna   
+requirements = python3, kivy, opencv-python-headless, numpy, requests, plyer, urllib3, charset_normalizer, certifi, idna   
 
 # (str) Supported orientations
 orientation = portrait
