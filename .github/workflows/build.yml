@@ -1,4 +1,16 @@
-name: CI/CD Buildozer Android
+- name: Build with Buildozer
+      run: |
+        export PATH=$PATH:~/.local/bin
+        buildozer -v android debug
+
+    - name: List bin directory
+      run: ls -la bin/
+
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: tactical-scanner-apk
+        path: bin/*.apk
 
 on:
   push:
